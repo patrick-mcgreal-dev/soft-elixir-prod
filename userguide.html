@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/main.css">
+  <title>Soft Elixir</title>
+</head>
+<body>
+  <header>
+    <h1><a href="./">◖ Soft Elixir ◡</a></h1>
+    <nav>
+      <a href="/userguide.html">user guide</a> . <a href="/roadmap.html">roadmap</a> . <a href="/about.html">about</a>
+    </nav>
+  </header>
+  <div class="content" id="userguide">
+    <h1>User Guide</h1>
+    <ul>
+      <li><a href="#getting-started">Getting started</a></li>
+      <li><a href="#the-main-window">The main window</a></li>
+      <li><a href="#track-properties">Track properties</a></li>
+      <li><a href="#sample-browser">Sample browser</a></li>
+      <li><a href="#track-sequencer">Track sequencer</a></li>
+      <li><a href="#pattern-sequencer">Pattern sequencer</a></li>
+      <li><a href="#working-in-the-grids">Working in the grids</a></li>
+      <li><a href="#other-functions">Other functions</a></li>
+    </ul>
+    <h2 id="getting-started">1. Getting started</h2>
+    <img src="./images/1-app.png">
+    <p>Soft Elixir is a sample-based music tracker inspired by programs like <a href="https://www.littlesounddj.com/lsd/index.php">Little Sound Dj</a> and <a href="https://www.renoise.com/">Renoise</a>. However unlike other trackers, Soft Elixir runs entirely in the browser.</p>
+    <p>When you open the app, the first thing you see is the track select menu.</p>
+    <img src="./images/2-track-select.png">
+    <p>Since Soft Elixir is a keyboard-only app, you won't be using the mouse. Use the following controls to select and open a track:</p>
+    <div class="controls">
+      <div>
+        <pre>[arrows]</pre>
+        <pre>[enter]</pre>
+      </div>
+      <div>
+        <pre>navigate up and down</pre>
+        <pre>open a track</pre>
+      </div>
+    </div>
+    <p>Open a demo track, or navigate to the <code>user tracks</code> region and follow the instructions at the bottom of the window.</p>
+    <img src="./images/3-track-create.png">
+    <h2 id="the-main-window">2. The main window</h2>
+    <p>The main window is split into five regions:</p>
+    <img src="./images/4-main-window.png">
+    <h3>Navigating regions</h3>
+    <p>Use the following controls to navigate between editable regions and access the track menu:</p>
+    <div class="controls">
+      <div>
+        <pre>[q] + [arrow]</pre>
+        <pre>[esc]</pre>
+      </div>
+      <div>
+        <pre>navigate regions up/down/left/right</pre>
+        <pre>toggle track menu</pre>
+      </div>
+    </div>
+    <h2 id="track-properties">3. Track properties</h2>
+    <p>The track properties section contains the master VU meter, the master gain value, and the track BPM value.</p>
+    <img src="./images/5-track-properties.png">
+    <p>Use the following controls to edit the master gain and the track BPM:</p>
+    <div class="controls">
+      <div>
+        <pre>[f] + [right]</pre>
+        <pre>[f] + [left]</pre>
+        <pre>[f] + [up]</pre>
+        <pre>[f] + [down]</pre>
+      </div>
+      <div>
+        <pre>increase value by one</pre>
+        <pre>decrease value by one</pre>
+        <pre>increase value by ten</pre>
+        <pre>decrease value by ten</pre>
+      </div>
+    </div>
+    <h2 id="sample-browser">4. Sample browser</h2>
+    <img src="./images/6-sample-browser.png">
+    <p>The following controls are used to add and remove samples in the sample browser:</p>
+    <div class="controls">
+      <div>
+        <pre>[up/down]</pre>
+        <pre>[f]</pre>
+        <pre>[e]</pre>
+      </div>
+      <div>
+        <pre>navigate through sample slots</pre>
+        <pre>open sample selector window</pre>
+        <pre>(e)rase sample</pre>
+      </div>
+    </div>
+    <p>Sample size is limited to 2MB.</p>
+    <h2 id="track-sequencer">5. Track sequencer</h2>
+    <img src="./images/7-track-sequencer.png">
+    <p>The track sequencer is where you create patterns and order them to make a track. See the section <a href="#working-in-the-grids">working in the grids</a> to learn how to navigate and enter data in the track sequencer.</p>
+    <p>From left to right, the columns in the track sequencer represent the following:</p>
+    <ul>
+      <li>Step number</li>
+      <li>Step length</li>
+      <li>Pattern columns 1-6</li>
+    </ul>
+    <h3>Step number</h3>
+    <p>The number of the selected track step. This value is not editable.</p>
+    <h3>Step length</h3>
+    <p>The step length column controls the amount of quarter-notes in the selected track step.</p>
+    <p>If any patterns in the track step are shorter than the step length value, they will be looped for the remainder of the step.</p>
+    <p>If any patterns in the track step are longer than the step length, they will be cut off at the end of the step.</p>
+    <h3>Pattern columns</h3>
+    <p>Each track step can contain six patterns, as indicated by the six pattern columns.</p>
+    <p>Along with the normal grid editing functions found <a href="#working-in-the-grids">here</a>, the track sequencer has a couple more options to make creating and editing patterns smoother:</p>
+    <div class="controls">
+      <div>
+        <pre>[f] + [j]</pre>
+        <pre>[f] + [k]</pre>
+      </div>
+      <div>
+        <pre>create a pattern in the next empty slot</pre>
+        <pre>(k)opy the currently selected pattern to the next available slot</pre>
+      </div>
+    </div>
+    <h3>Play/pause/loop</h3>
+    <p>From the track sequencer, you can play the whole track or loop a section of the track.</p>
+    <div class="controls">
+      <div>
+        <pre>[space]</pre>
+        <pre>[m] + [1-6]</pre>
+        <pre>[n] + [1-6]</pre>
+      </div>
+      <div>
+        <pre>play/pause the track or track selection</pre>
+        <pre>toggle mute pattern 1-6</pre>
+        <pre>toggle solo pattern 1-6</pre>
+      </div>
+    </div>
+    <p>To loop a section, use <a href="#grabbing">grab mode</a> to select some steps. Press <code>[space]</code> whilst still in grab mode to create and start the loop.</p>
+    <p>To clear the loop, use the following command:</p>
+    <div class="controls">
+      <div>
+        <pre>[g] + [e]</pre>
+      </div>
+      <div>
+        <pre>(e)rase track loop</pre>
+      </div>
+    </div>
+    <h2 id="pattern-sequencer">6. Pattern sequencer</h2>
+    <img src="./images/9-pattern-sequencer.png">
+    <p>The pattern sequencer is where you edit the six patterns in the currently selected track step. See the section <a href="#working-in-the-grids">working in the grids</a> to learn how to navigate and enter data in the track sequencer.</p>
+    <h3>Pattern columns</h3>
+    <p>From left to right, the four columns in each pattern represent the following:</p>
+    <ul>
+      <li>Sample number — <code>a number in the range 00 - 50 that represents a sample in the <a href="#sample-browser">sample browser</a></code></li>
+      <li>Sample pitch — <code>a pitch value in the range C-0 - D#8</code></li>
+      <li>Sample gain — <code>a gain value in the range 00 - 99</code></li>
+      <li>Sample pan — <code>a pan value in the range L4 - R4, with C0 representing the center</code></li>
+    </ul>
+    <p>When you enter or edit a value in the pattern sequencer, the musical event is previewed automatically.</p>
+    <p>To avoid the problem of listening to long samples every time you enter an event, the event preview stops when you release the <code>[f]</code> key.</p>
+    <p>You can also preview the entire pattern row with the following controls:</p>
+    <div class="controls">
+      <div>
+        <pre>[p]</pre>
+        <pre>[p] + [up] / [down]</pre>
+      </div>
+      <div>
+        <pre>preview the current row</pre>
+        <pre>navigate up/down whilst previewing rows</pre>
+      </div>
+    </div>
+    <h3>Play/pause/loop</h3>
+    <p>From the pattern sequencer, you can play the whole pattern or loop a section of the pattern.</p>
+    <div class="controls">
+      <div>
+        <pre>[space]</pre>
+        <pre>[m] + [1-6]</pre>
+        <pre>[n] + [1-6]</pre>
+      </div>
+      <div>
+        <pre>play/pause the pattern or pattern selection</pre>
+        <pre>toggle mute pattern 1-6</pre>
+        <pre>toggle solo pattern 1-6</pre>
+      </div>
+    </div>
+    <p>To loop a section, use <a href="#grabbing">grab mode</a> to select some steps. Press <code>[space]</code> whilst still in grab mode to create and start the loop.</p>
+    <p>To clear the loop, use the following command:</p>
+    <div class="controls">
+      <div>
+        <pre>[g] + [e]</pre>
+      </div>
+      <div>
+        <pre>(e)rase pattern loop</pre>
+      </div>
+    </div>
+    <h3>Event kill</h3>
+    <p>To kill a sample before it's finishing playing, use the following command:</p>
+    <div class="controls">
+      <div>
+        <pre>[k]</pre>
+      </div>
+      <div>
+        <pre>[k]ill event</pre>
+      </div>
+    </div>
+    <p>Kill events are shown as stars in the pattern sequencer.</p>
+    <h3>Pattern length</h3>
+    <p>Pattern length is independent from track step length. To set the length of the pattern, use the following command on the row you want to make the final:</p>
+    <div class="controls">
+      <div>
+        <pre>[l]</pre>
+      </div>
+      <div>
+        <pre>set pattern (l)ength</pre>
+      </div>
+    </div>
+    <p>The pattern will be looped for the duration of the track step.</p>
+    <p>The area beyond the end of the pattern is shaded to indicate that it is no-longer editable, and the looped notes are shown as a guide.</p>
+    <p>To set the length of the pattern to the length of the track step, navigate to the final row and use the <code>[l]</code> command.</p>
+    <h2 id="working-in-the-grids">7. Working in the grids</h2>
+    <h3 id="navigating">Navigating</h3>
+    <div class="controls">
+      <div>
+        <pre>[arrows]</pre>
+        <pre>[a] + [arrows]</pre>
+        <pre>[s] + [right] / [left]</pre>
+        <pre>[s] + [up] / [down]</pre>
+      </div>
+      <div>
+        <pre>move</pre>
+        <pre>jump (a)ll the way to the end in any direction</pre>
+        <pre>(s)kip between patterns</pre>
+        <pre>(s)kip between events</pre>
+      </div>
+    </div>
+    <h3 id="editing">Editing data</h3>
+    <div class="controls">
+      <div>
+        <pre>[f]</pre>
+        <pre>[f] + [right] / [left]</pre>
+        <pre>[f] + [up] / [down]</pre>
+        <pre>[e]</pre>
+        <pre>[e] + [right]</pre>
+        <pre>[e] + [right] + [right]</pre>
+        <pre>[z]</pre>
+        <pre>[y]</pre>
+      </div>
+      <div>
+        <pre>(f)ill an empty cell with a value</pre>
+        <pre>increase/decrease cell value by one</pre>
+        <pre>increase/decrease cell value by one step</pre>
+        <pre>(e)rase cell value</pre>
+        <pre>(e)rase whole event</pre>
+        <pre>(e)rase whole row</pre>
+        <pre>undo</pre>
+        <pre>redo</pre>
+      </div>
+    </div>
+    <h3>Cut/copy/paste</h3>
+    <div class="controls">
+      <div>
+        <pre>[c]</pre>
+        <pre>[x]</pre>
+        <pre>[v]</pre>
+      </div>
+      <div>
+        <pre>(c)opy cell value</pre>
+        <pre>cut cell value</pre>
+        <pre>(p)aste copied value</pre>
+      </div>
+    </div>
+    <h3 id="grabbing">Grabbing</h3>
+    <p>Use grab mode to select and edit multiple cells.</p>
+    <img src="./images/10-grabbing.png">
+    <div class="controls">
+      <div>
+        <pre>[g]</pre>
+        <pre>[g] + [right]</pre>
+        <pre>[e]</pre>
+        <pre>[c]</pre>
+        <pre>[x]</pre>
+        <pre>[v]</pre>
+      </div>
+      <div>
+        <pre>toggle (g)rab mode</pre>
+        <pre>select a whole musical event</pre>
+        <pre>(e)rase grabbed cells</pre>
+        <pre>(c)opy grabbed cells</pre>
+        <pre>cut grabbed cells</pre>
+        <pre>(p)aste copied cells</pre>
+      </div>
+    </div>
+    <p>While in grab mode, all of the <a href="#navigating">navigating</a> and <a href="#editing">editing</a> commands work as normal.</p>
+    <p>To edit a whole column, enter grab mode on the first cell. Then, press <code>[a]</code> and <code>[down]</code> to jump to the end of the column. Try using <code>[f] + [arrows]</code> to increase and decrease values across the whole column.</p>
+    <p>To copy a whole pattern, press <code>[g] + [right]</code> to select a whole event. Then, press <code>[a] + [down]</code> to jump to the end of the pattern. Use <code>[c]</code> or <code>[x]</code> to copy or cut the pattern.</p>
+    <h3>Interpolation</h3>
+    <p>The interpolation command creates a linear ramp between values at either end of a grabbed region.</p>
+    <img src="./images/11-interpolation.png">
+    <div class="controls">
+      <div>
+        <pre>[i]</pre>
+      </div>
+      <div>
+        <pre>interpolate between two values</pre>
+      </div>
+    </div>
+    <p>It can be used in any column, but the most common use case is creating gain ramps in the pattern editor.</p>
+    <p>To create a delay effect, enter multiple notes into a pattern. In the gain column of the final note, enter a zero. Enter grab mode and select all cells in the gain column from the first to the last node before pressing <code>[i]</code>. The values between the first and the last cells are auto-filled with decreasing values, creating a delay-like effect.</p>
+    <h2 id="other-functions">8. Other functions</h2>
+    <img src="./images/12-track-menu.png">
+    <p>Use the following command to access the track menu:</p>
+    <div class="controls">
+      <div>
+        <pre>[esc]</pre>
+      </div>
+      <div>
+        <pre>toggle track menu</pre>
+      </div>
+    </div>
+    <h3>Save</h3>
+    <p>Tracks are saved in browser storage, and are accessed from the <code>users</code> section of the track select window.</p>
+    <p>If you save a demo track, it will be copied to the <code>users</code> section of the track select window.</p>
+    <p><strong>A note on browser storage:</strong></p>
+    <p>Browser storage is volatile, and can be erased when clearing browser data. Always export your tracks to .wav to be sure!</p>
+    <h3>Organise track</h3>
+    <p>The <code>organise patterns</code> function tidies up your track by sorting pattern numbers in the order they appear in the track sequencer.</p>
+    <p>The <code>organise samples</code> function tidies up your samples by removing empty spaces from the sample browser.</p>
+    <h3>Export to wav</h3>
+    <p>To export your track, set a start and end step with the usual <code>[f]</code>-based editing controls.</p>
+    <p>Once the track has been played through, it will be automatically downloaded as a <code>.wav</code> file.</p>
+    <h3>Exit</h3>
+    <p>Exit to the track select menu.</p>
+  </div>
+</body>
+</html>

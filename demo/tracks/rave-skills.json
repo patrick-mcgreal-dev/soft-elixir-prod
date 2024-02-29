@@ -1,0 +1,2140 @@
+{
+  "demo": true,
+  "bpm": 120,
+  "samples": [
+    {
+      "id": "7adcfd19-cf04-4e6f-b4fc-7cc90e0f6a36",
+      "name": "rave.wav",
+      "data": [
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "9b989324-503f-4ed1-a215-2397916bc16e",
+      "name": "skills.wav",
+      "data": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        5,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        6,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        7,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        8,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        9,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        10,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        11,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        12,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        13,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        14,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        15,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        16,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        17,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        18,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        19,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        20,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        21,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        22,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        23,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        24,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        25,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        26,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        27,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        28,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        29,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        30,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        31,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        32,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        33,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        34,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        35,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        36,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        37,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        38,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        39,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        40,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        41,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        42,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        43,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        44,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        45,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        46,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        47,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        48,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "",
+      "name": "",
+      "data": [
+        49,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "instruments": {
+    "sample": {
+      "fn": "sample"
+    }
+  },
+  "patterns": [
+    {
+      "id": 0,
+      "dur": 32,
+      "events": [
+        {
+          "time": [
+            1,
+            1
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            1,
+            2
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            2,
+            3
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            3,
+            1
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            3,
+            4
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            1
+          ],
+          "data": [
+            0,
+            46,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            2
+          ],
+          "data": [
+            0,
+            46,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            3
+          ],
+          "data": [
+            0,
+            47,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            4
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            5,
+            1
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            5,
+            2
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            6,
+            3
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            7,
+            1
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            7,
+            4
+          ],
+          "data": [
+            0,
+            46,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            2
+          ],
+          "data": [
+            0,
+            46,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            3
+          ],
+          "data": [
+            0,
+            47,
+            8,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            4
+          ],
+          "data": [
+            0,
+            48,
+            8,
+            5
+          ]
+        }
+      ],
+      "data": {}
+    },
+    {
+      "id": 1,
+      "dur": 32,
+      "events": [
+        {
+          "time": [
+            1,
+            1
+          ],
+          "data": [
+            1,
+            36,
+            6,
+            5
+          ]
+        },
+        {
+          "time": [
+            2,
+            1
+          ],
+          "data": [
+            1,
+            72,
+            4,
+            5
+          ]
+        },
+        {
+          "time": [
+            3,
+            3
+          ],
+          "data": [
+            1,
+            36,
+            6,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            1
+          ],
+          "data": [
+            1,
+            72,
+            4,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            3
+          ],
+          "data": [
+            1,
+            36,
+            0,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            4
+          ],
+          "data": [
+            1,
+            36,
+            6,
+            5
+          ]
+        },
+        {
+          "time": [
+            5,
+            1
+          ],
+          "data": [
+            1,
+            36,
+            6,
+            5
+          ]
+        },
+        {
+          "time": [
+            6,
+            1
+          ],
+          "data": [
+            1,
+            72,
+            4,
+            5
+          ]
+        },
+        {
+          "time": [
+            7,
+            3
+          ],
+          "data": [
+            1,
+            36,
+            6,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            1
+          ],
+          "data": [
+            1,
+            72,
+            4,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            3
+          ],
+          "data": [
+            1,
+            36,
+            0,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            4
+          ],
+          "data": [
+            1,
+            36,
+            6,
+            5
+          ]
+        }
+      ],
+      "data": {}
+    },
+    {
+      "id": 2,
+      "dur": 32,
+      "events": [
+        {
+          "time": [
+            1,
+            1
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            1,
+            3
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            2,
+            1
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            2,
+            3
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            3,
+            1
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            3,
+            2
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            3,
+            4
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            1
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            2
+          ],
+          "data": [
+            1,
+            84,
+            0,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            3
+          ],
+          "data": [
+            1,
+            84,
+            1,
+            5
+          ]
+        },
+        {
+          "time": [
+            4,
+            4
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            5,
+            1
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            5,
+            3
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            6,
+            1
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            6,
+            3
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            7,
+            1
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            7,
+            2
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            7,
+            4
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            1
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            2
+          ],
+          "data": [
+            1,
+            84,
+            1,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            3
+          ],
+          "data": [
+            1,
+            84,
+            2,
+            5
+          ]
+        },
+        {
+          "time": [
+            8,
+            4
+          ],
+          "data": [
+            1,
+            84,
+            3,
+            5
+          ]
+        }
+      ],
+      "data": {}
+    },
+    {
+      "id": 3,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 4,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 5,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 6,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 7,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 8,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 9,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 10,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 11,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 12,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 13,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 14,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 15,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 16,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 17,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 18,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 19,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 20,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 21,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 22,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 23,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 24,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 25,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 26,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 27,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 28,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 29,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 30,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 31,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 32,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 33,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 34,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 35,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 36,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 37,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 38,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 39,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 40,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 41,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 42,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 43,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 44,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 45,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 46,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 47,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 48,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 49,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 50,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 51,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 52,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 53,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 54,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 55,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 56,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 57,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 58,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 59,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 60,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 61,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 62,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 63,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 64,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 65,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 66,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 67,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 68,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 69,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 70,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 71,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 72,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 73,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 74,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 75,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 76,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 77,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 78,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 79,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 80,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 81,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 82,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 83,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 84,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 85,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 86,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 87,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 88,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 89,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 90,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 91,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 92,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 93,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 94,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 95,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 96,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 97,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 98,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    },
+    {
+      "id": 99,
+      "dur": 32,
+      "events": [],
+      "data": {}
+    }
+  ],
+  "sequences": [
+    {
+      "id": 0,
+      "steps": [
+        {
+          "ticks": 32,
+          "patterns": [
+            0,
+            1,
+            2,
+            null
+          ]
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        },
+        {
+          "ticks": 32,
+          "patterns": []
+        }
+      ]
+    }
+  ]
+}
