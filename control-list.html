@@ -4,109 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soft Elixir</title>
-  <style>
-    body {
-      background-color: rgb(61, 61, 61);
-      color: white;
-      font-size: 1rem;
-    }
-    h1 {
-      font-size: 2rem;
-      font-weight: 400;
-    }
-    h2 {
-      border-bottom: 1px dotted white;
-      padding: 4px 0;
-      font-family: monospace;
-      font-size: 1rem;
-      font-weight: 400;
-      text-transform: uppercase;
-    }
-    ul {
-      list-style-type: circle;
-    }
-    li {
-      margin: 6px 0;
-    }
-    code {
-      background-color: #707070;
-      padding: 2px;
-      font-size: .8em;
-    }
-  </style>
+  <link rel="stylesheet" href="./dist/main.css">
 </head>
-<body>
+<body class="content" id="control-list">
   <h1 id="soft-elixir-cheatsheet">Soft Elixir Control List</h1>
   <h2 id="general">GENERAL</h2>
   <ul>
-    <li>Navigate between control regions: <code>[Q] + [arrows]</code></li>
-    <li>Open track menu: <code>[esc]</code></li>
+    <li><div>Navigate between control regions</div><code>[Q] + [arrows]</code></li>
+    <li><div>Open track menu</div><code>[esc]</code></li>
   </ul>
   <h2 id="track-properties">TRACK PROPERTIES</h2>
   <ul>
-    <li>Navigate: <code>[arrows]</code></li>
-    <li>Edit value: <code>[F] + [arrows]</code></li>
+    <li><div>Navigate</div><code>[arrows]</code></li>
+    <li><div>Edit value</div><code>[F] + [arrows]</code></li>
   </ul>
   <h2 id="sample-browser">SAMPLE BROWSER</h2>
   <ul>
-    <li>Navigate: <code>[arrows]</code></li>
-    <li>Open sample select: <code>[F]</code></li>
-    <li>Delete sample: <code>[E]</code></li>
+    <li><div>Navigate</div><code>[arrows]</code></li>
+    <li><div>Open sample select</div><code>[F]</code></li>
+    <li><div>Delete sample</div><code>[E]</code></li>
   </ul>
   <h2 id="track-sequencer">TRACK SEQUENCER</h2>
   <ul>
-    <li>Play/pause track: <code>[space]</code></li>
-    <li>Navigate: <code>[arrows]</code></li>
-    <li>Jump to end: <code>[A] + [arrows]</code></li>
-    <li>Enter value: <code>[F]</code></li>
-    <li>Edit value: <code>[F] + [arrows]</code></li>
-    <li>Create pattern with in next empty slot: <code>[F] + [J]</code></li>
-    <li>Copy pattern to next empty slot: <code>[F] + [K]</code></li>
-    <li>Delete pattern: <code>[E]</code></li>
-    <li>Delete whole step: <code>[E] + [arrow right]</code></li>
-    <li>Cut: <code>[X]</code></li>
-    <li>Copy: <code>[C]</code></li>
-    <li>Paste: <code>[V]</code></li>
-    <li>Undo: <code>[Z]</code></li>
-    <li>Redo: <code>[Y]</code></li>
-    <li>Toggle grab mode: <code>[G]</code></li>
-    <li>Create loop: <code>[G]</code> to enter grab mode, <code>[arrows]</code> to select loop region, <code>[space] to play/pause</code></li>
-    <li>Clear loop: <code>[G] + [E]</code></li>
+    <li><div>Play/pause track</div><code>[space]</code></li>
+    <li><div>Mute pattern</div><code>[M] + [number]</code></li>
+    <li><div>Solo pattern</div><code>[N] + [number]</code></li>
+    <li><div>Navigate</div><code>[arrows]</code></li>
+    <li><div>Jump to end</div><code>[A] + [arrows]</code></li>
+    <li><div>Enter value</div><code>[F]</code></li>
+    <li><div>Edit value</div><code>[F] + [arrows]</code></li>
+    <li><div>Create pattern with in next empty slot</div><code>[F] + [J]</code></li>
+    <li><div>Copy pattern to next empty slot</div><code>[F] + [K]</code></li>
+    <li><div>Delete pattern</div><code>[E]</code></li>
+    <li><div>Delete whole step</div><code>[E] + [arrow right]</code></li>
+    <li><div>Cut</div><code>[X]</code></li>
+    <li><div>Copy</div><code>[C]</code></li>
+    <li><div>Paste</div><code>[V]</code></li>
+    <li><div>Undo</div><code>[Z]</code></li>
+    <li><div>Redo</div><code>[Y]</code></li>
+    <li><div>Toggle grab mode</div><code>[G]</code></li>
+    <li><div>Create loop (in grab mode)</div><div><code>[arrows]</code> to select loop region, <code>[space]</code> to play/pause</div></li>
+    <li><div>Clear loop</div><code>[G] + [E]</code></li>
   </ul>
   <h2 id="pattern-sequencer">PATTERN SEQUENCER</h2>
   <ul>
-    <li>Play/pause pattern: <code>[space]</code></li>
-    <li>Navigate: <code>[arrows]</code></li>
-    <li>Jump to end: <code>[A] + [arrows]</code></li>
-    <li>Jump between patterns: <code>[S] + [arrow left] / [arrow right]</code></li>
-    <li>Jump between events: <code>[S] + [arrow up] / [arrow down]</code></li>
-    <li>Enter value in empty cell: <code>[F]</code></li>
-    <li>Edit value: <code>[F] + [arrows]</code></li>
-    <li>Delete value: <code>[E]</code></li>
-    <li>Delete whole event: <code>[E] + [arrow right]</code></li>
-    <li>Delete whole row: <code>[E] + [arrow right] + [arrow right]</code></li>
-    <li>Cut: <code>[X]</code></li>
-    <li>Copy: <code>[C]</code></li>
-    <li>Paste: <code>[V]</code></li>
-    <li>Merge: <code>[B]</code></li>
-    <li>Undo: <code>[Z]</code></li>
-    <li>Redo: <code>[Y]</code></li>
-    <li>Toggle grab mode: <code>[G]</code></li>
-    <li>Create loop: <code>[G]</code> to enter grab mode, <code>[arrows]</code> to select loop region, <code>[space] to play/pause</code></li>
-    <li>Clear loop: <code>[G] + [E]</code></li>
-    <li>Set pattern length: <code>[L]</code></li>
+    <li><div>Play/pause pattern</div><code>[space]</code></li>
+    <li><div>Mute pattern</div><code>[M] + [number]</code></li>
+    <li><div>Solo pattern</div><code>[N] + [number]</code></li>
+    <li><div>Navigate</div><code>[arrows]</code></li>
+    <li><div>Jump to end</div><code>[A] + [arrows]</code></li>
+    <li><div>Jump between patterns</div><code>[S] + [arrow left] / [arrow right]</code></li>
+    <li><div>Jump between events</div><code>[S] + [arrow up] / [arrow down]</code></li>
+    <li><div>Enter value in empty cell</div><code>[F]</code></li>
+    <li><div>Edit value</div><code>[F] + [arrows]</code></li>
+    <li><div>Delete value</div><code>[E]</code></li>
+    <li><div>Delete whole event</div><code>[E] + [arrow right]</code></li>
+    <li><div>Delete whole row</div><code>[E] + [arrow right] + [arrow right]</code></li>
+    <li><div>Cut</div><code>[X]</code></li>
+    <li><div>Copy</div><code>[C]</code></li>
+    <li><div>Paste</div><code>[V]</code></li>
+    <li><div>Merge</div><code>[B]</code></li>
+    <li><div>Undo</div><code>[Z]</code></li>
+    <li><div>Redo</div><code>[Y]</code></li>
+    <li><div>Note kill</div><code>[K]</code></li>
+    <li><div>Toggle grab mode</div><code>[G]</code></li>
+    <li><div>Create loop (in grab mode)</div><div><code>[arrows]</code> to select loop region, <code>[space]</code> to play/pause</div></li>
+    <li><div>Clear loop</div><code>[G] + [E]</code></li>
+    <li><div>Set pattern length</div><code>[L]</code></li>
   </ul>
   <h2 id="grab-mode">GRAB MODE</h2>
   <ul>
-    <li>Toggle: <code>[G]</code></li>
-    <li>Grab whole event: <code>[G] + [arrow right]</code></li>
+    <li><div>Toggle</div><code>[G]</code></li>
+    <li><div>Grab whole event</div><code>[G] + [arrow right]</code></li>
   </ul>
-  <p><em>When in grab mode, all navigation works as normal. For reference:</em></p>
+  <p><em>When in grab mode, all navigation works as normal. For reference</em></p>
   <ul>
-    <li>Navigate: <code>[arrows]</code></li>
-    <li>Jump to end: <code>[A] + [arrows]</code></li>
-    <li>Jump between patterns (pattern sequencer only): <code>[S] + [arrow left] / [arrow right]</code></li>
-    <li>Jump between events (pattern sequencer only): <code>[S] + [arrow up] / [arrow down]</code></li>
+    <li><div>Navigate</div><code>[arrows]</code></li>
+    <li><div>Jump to end</div><code>[A] + [arrows]</code></li>
+    <li><div>Jump between patterns (pattern sequencer only)</div><code>[S] + [arrow left] / [arrow right]</code></li>
+    <li><div>Jump between events (pattern sequencer only)</div><code>[S] + [arrow up] / [arrow down]</code></li>
   </ul>
 </body>
 </html>
