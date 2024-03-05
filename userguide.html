@@ -43,16 +43,10 @@
     <p>When you open the app, the first thing you see is the track select menu.</p>
     <img src="./images/2-track-select.png">
     <p>Since Soft Elixir is a keyboard-only app, you won't be using the mouse. Use the following controls to select and open a track:</p>
-    <div class="controls">
-      <div>
-        <pre>[arrows]</pre>
-        <pre>navigate up and down</pre>
-      </div>
-      <div>
-        <pre>[enter]</pre>
-        <pre>open a track</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>up/down</div><code>[arrows]</code></li>
+      <li><div>select track</div><code>[enter]</code></li>
+    </ul>
     <p>Open a demo track, or navigate to the <code>user tracks</code> page and follow the instructions at the bottom of the window.</p>
     <img src="./images/3-track-create.png">
     <h2 id="the-main-window">2. The main window</h2>
@@ -60,57 +54,30 @@
     <img src="./images/4-main-window.png">
     <h3>Navigating regions</h3>
     <p>To navigate between regions, use the following controls:</p>
-    <div class="controls">
-      <div>
-        <pre>[q] + [arrow]</pre>
-        <pre>navigate regions up/down/left/right</pre>
-      </div>
-      <div>
-        <pre>[esc]</pre>
-        <pre>toggle track menu</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>navigate regions</div><code>[q] + [arrow]</code></li>
+      <li><div>toggle track menu</div><code>[esc]</code></li>
+    </ul>
     <p>All of the regions contain editable data except for the <code>track scopes</code> region, which is display only.</p>
     <h2 id="track-properties">3. Track properties</h2>
     <p>The track properties section contains the master VU meter, the master gain value, and the track BPM value.</p>
     <img src="./images/5-track-properties.png">
     <p>Use the following controls to edit the master gain and the track BPM:</p>
-    <div class="controls">
-      <div>
-        <pre>[f] + [right]</pre>
-        <pre>increase value by one</pre>
-      </div>
-      <div>
-        <pre>[f] + [left]</pre>
-        <pre>decrease value by one</pre>
-      </div>
-      <div>
-        <pre>[f] + [up]</pre>
-        <pre>increase value by ten</pre>
-      </div>
-      <div>
-        <pre>[f] + [down]</pre>
-        <pre>decrease value by ten</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>increase value by one</div><code>[f] + [right]</code></li>
+      <li><div>decrease value by one</div><code>[f] + [left]</code></li>
+      <li><div>increase value by ten</div><code>[f] + [up]</code></li>
+      <li><div>decrease value by ten</div><code>[f] + [down]</code></li>
+    </ul>
     <h2 id="sample-browser">4. Sample browser</h2>
     <p>The sample browser contains 50 slots that can be loaded with audio samples.</p>
     <img src="./images/6-sample-browser.png">
     <p>The following controls are used to add and remove samples in the sample browser:</p>
-    <div class="controls">
-      <div>
-        <pre>[up/down]</pre>
-        <pre>navigate through sample slots</pre>
-      </div>
-      <div>
-        <pre>[f]</pre>
-        <pre>open sample selector window</pre>
-      </div>
-      <div>
-        <pre>[e]</pre>
-        <pre>(e)rase sample</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>navigate sample slots</div><code>[up/down]</code></li>
+      <li><div>open sample selector</div><code>[f]</code></li>
+      <li><div>(e)rase sample</div><code>[e]</code></li>
+    </ul>
     <p>Sample size is limited to 2MB.</p>
     <h2 id="track-sequencer">5. Track sequencer</h2>
     <p>The track sequencer is where you create patterns and order them to make a track. See the section <a href="#working-in-the-grids">working in the grids</a> to learn how to navigate and enter data in the track sequencer.</p>
@@ -130,246 +97,125 @@
     <h3>Pattern columns</h3>
     <p>Each track step can contain six patterns, as indicated by the six pattern columns.</p>
     <p>Along with the normal grid editing functions found <a href="#working-in-the-grids">here</a>, the track sequencer has a couple more options to make creating and editing patterns smoother:</p>
-    <div class="controls">
-      <div>
-        <pre>[f] + [j]</pre>
-        <pre>create a pattern in the next empty slot</pre>
-      </div>
-      <div>
-        <pre>[f] + [k]</pre>
-        <pre>(k)opy the currently selected pattern to the next available slot</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>create a pattern in the next empty slot</div><code>[f] + [j]</code></li>
+      <li><div>(k)opy the currently selected pattern to the next available slot</div><code>[f] + [k]</code></li>
+    </ul>
     <h3>Play/pause/loop</h3>
     <p>From the track sequencer, you can play the whole track or loop a section of the track.</p>
-    <div class="controls">
-      <div>
-        <pre>[space]</pre>
-        <pre>play/pause the track or track selection</pre>
-      </div>
-      <div>
-        <pre>[m] + [1-6]</pre>
-        <pre>toggle mute pattern 1-6</pre>
-      </div>
-      <div>
-        <pre>[n] + [1-6]</pre>
-        <pre>toggle solo pattern 1-6</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>play/pause the track or loop</div><code>[space]</code></li>
+      <li><div>toggle (m)ute pattern 1-6</div><code>[m] + [1-6]</code></li>
+      <li><div>toggle solo pattern 1-6</div><code>[n] + [1-6]</code></li>
+    </ul>
     <p>You'll notice the pattern sequencer scrolls along with the current step. Moving from the track sequencer to the pattern sequencer whilst playing will loop the current track step and allow you to edit the patterns.</p>
     <p>To loop a section, use <a href="#grabbing">grab mode</a> to select some steps. Press <code>[space]</code> whilst still in grab mode to create and start the loop. Looped step numbers are coloured pink.</p>
     <img src="images/7a-track-loop.png">
     <p>To clear the loop, use the following command:</p>
-    <div class="controls">
-      <div>
-        <pre>[g] + [e]</pre>
-        <pre>(e)rase track loop</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>(e)rase track loop</div><code>[g] + [e]</code></li>
+    </ul>
     <h2 id="pattern-sequencer">6. Pattern sequencer</h2>
     <p>The pattern sequencer is where you edit the six patterns in the currently selected track step. See the section <a href="#working-in-the-grids">working in the grids</a> to learn how to navigate and enter data in the pattern sequencer.</p>
     <img src="./images/9-pattern-sequencer.png">
     <h3>Pattern columns</h3>
     <p>From left to right, the four columns in each pattern represent the following:</p>
-    <div class="controls">
-      <div>
-        <pre>sample id</pre>
-        <pre>a value in the range 00 - 50 that represents a sample in the <a href="#sample-browser">sample browser</a></pre>
-      </div>
-      <div>
-        <pre>pitch</pre>
-        <pre>a value in the range C-0 - D#8</pre>
-      </div>
-      <div>
-        <pre>gain</pre>
-        <pre>a value in the range 00 - 99</pre>
-      </div>
-      <div>
-        <pre>pan</pre>
-        <pre>a value in the range L4 - R4, with C0 representing the center</pre>
-      </div>
-    </div>
+    <ul>
+      <li><b>sample id</b>: a value in the range 00 - 50 that represents a sample in the <a href="#sample-browser">sample browser</a></li>
+      <li><b>pitch</b>: a value in the range C-0 - D#8</li>
+      <li><b>gain</b>: a value in the range 00 - 99</li>
+      <li><b>pan</b>: a value in the range L4 - R4, with C0 representing the center</li>
+    </ul>
     <p>When you enter or edit a value in the pattern sequencer, the musical event is previewed automatically.</p>
     <p>To avoid the problem of listening to long samples every time you enter an event, the event preview stops when you release the <code>[f]</code> key.</p>
     <p>You can also preview the entire pattern row with the following controls:</p>
-    <div class="controls">
-      <div>
-        <pre>[p]</pre>
-        <pre>preview row</pre>
-      </div>
-      <div>
-        <pre>[p] + [up]/[down]</pre>
-        <pre>preview nav up/down</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>preview row</div><code>[p]</code></li>
+      <li><div>preview row up/down</div><code>[p] + [up/down]</code></li>
+    </ul>
     <h3>Play/pause/loop</h3>
     <p>From the pattern sequencer, you can play the whole pattern or loop a section of the pattern.</p>
-    <div class="controls">
-      <div>
-        <pre>[space]</pre>
-        <pre>play/pause the pattern or pattern selection</pre>
-      </div>
-      <div>
-        <pre>[m] + [1-6]</pre>
-        <pre>toggle mute pattern 1-6</pre>
-      </div>
-      <div>
-        <pre>[n] + [1-6]</pre>
-        <pre>toggle solo pattern 1-6</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>play/pause the pattern or loop</div><code>[space]</code></li>
+      <li><div>toggle (m)ute pattern 1-6</div><code>[m] + [1-6]</code></li>
+      <li><div>toggle solo pattern 1-6</div><code>[n] + [1-6]</code></li>
+    </ul>
     <p>Playing from the pattern sequencer loops the current track step and you to edit the patterns. Moving to the track sequencer whilst playing exits pattern edit mode and plays the track as normal.</p>
     <p>To loop a section, use <a href="#grabbing">grab mode</a> to select some steps. Press <code>[space]</code> whilst still in grab mode to create and start the loop. Looped step numbers are coloured pink.</p>
     <img src="images/9a-pattern-loop.png">
     <p>To clear the loop, use the following command:</p>
-    <div class="controls">
-      <div>
-        <pre>[g] + [e]</pre>
-        <pre>(e)rase pattern loop</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>(e)rase pattern loop</div><code>[g] + [e]</code></li>
+    </ul>
     <h3>Event kill</h3>
     <p>To kill a sample before it's finishing playing, use the following command:</p>
-    <div class="controls">
-      <div>
-        <pre>[k]</pre>
-        <pre>[k]ill event</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>(k)ill sample</div><code>[k]</code></li>
+    </ul>
     <p>Kill events are shown as stars in the pattern sequencer.</p>
     <h3>Pattern length</h3>
     <p>Pattern length is independent of track step length. To set the length of the pattern, use the following command on the row you want to make the final:</p>
-    <div class="controls">
-      <div>
-        <pre>[l]</pre>
-        <pre>set pattern (l)ength</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>set pattern (l)ength</div><code>[l]</code></li>
+    </ul>
     <p>The pattern will be looped for the duration of the track step.</p>
     <p>The area beyond the end of the pattern is shaded to indicate that it is no-longer editable, and the looped events are shown as a guide.</p>
     <p>To set the length of the pattern to the length of the track step, use the <code>[l]</code> command in the bottom row of the pattern sequencer.</p>
     <h2 id="working-in-the-grids">7. Working in the grids</h2>
     <h3 id="navigating">Navigating</h3>
-    <div class="controls">
-      <div>
-        <pre>[arrows]</pre>
-        <pre>move</pre>
-      </div>
-      <div>
-        <pre>[a] + [arrows]</pre>
-        <pre>jump (a)ll the way to the end in any direction</pre>
-      </div>
-      <div>
-        <pre>[s] + [right] / [left]</pre>
-        <pre>(s)kip between patterns</pre>
-      </div>
-      <div>
-        <pre>[s] + [up] / [down]</pre>
-        <pre>(s)kip between events</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>move</div><code>[arrows]</code></li>
+      <li><div>jump (a)ll the way to the end in any direction</div><code>[a] + [arrows]</code></li>
+      <li><div>(s)kip between patterns</div><code>[s] + [right] / [left]</code></li>
+      <li><div>(s)kip between events</div><code>[s] + [up] / [down]</code></li>
+    </ul>
     <h3 id="editing">Editing data</h3>
-    <div class="controls">
-      <div>
-        <pre>[f]</pre>
-        <pre>(f)ill an empty cell with a value</pre>
-      </div>
-      <div>
-        <pre>[f] + [right] / [left]</pre>
-        <pre>increase/decrease cell value by one</pre>
-      </div>
-      <div>
-        <pre>[f] + [up] / [down]</pre>
-        <pre>increase/decrease cell value by one step</pre>
-      </div>
-      <div>
-        <pre>[e]</pre>
-        <pre>(e)rase cell value</pre>
-      </div>
-      <div>
-        <pre>[e] + [right]</pre>
-        <pre>(e)rase whole event</pre>
-      </div>
-      <div>
-        <pre>[e] + [right] + [right]</pre>
-        <pre>(e)rase whole row</pre>
-      </div>
-      <div>
-        <pre>[z]</pre>
-        <pre>undo</pre>
-      </div>
-      <div>
-        <pre>[y]</pre>
-        <pre>redo</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>(f)ill an empty cell with a value</div><code>[f]</code></li>
+      <li><div>increase/decrease cell value by one</div><code>[f] + [right] / [left]</code></li>
+      <li><div>increase/decrease cell value by one step</div><code>[f] + [up] / [down]</code></li>
+      <li><div>(e)rase cell value</div><code>[e]</code></li>
+      <li><div>(e)rase whole event</div><code>[e] + [right]</code></li>
+      <li><div>(e)rase whole row</div><code>[e] + [right] + [right]</code></li>
+      <li><div>undo</div><code>[z]</code></li>
+      <li><div>redo</div><code>[y]</code></li>
+    </ul>
     <h3>Cut/copy/paste</h3>
-    <div class="controls">
-      <div>
-        <pre>[c]</pre>
-        <pre>(c)opy cell value</pre>
-      </div>
-      <div>
-        <pre>[x]</pre>
-        <pre>cut cell value</pre>
-      </div>
-      <div>
-        <pre>[v]</pre>
-        <pre>paste copied value</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>(c)opy value/s</div><code>[c]</code></li>
+      <li><div>cut value/s</div><code>[x]</code></li>
+      <li><div>paste value/s</div><code>[v]</code></li>
+      <li><div>merge values</div><code>[b]</code></li>
+    </ul>
     <h3 id="grabbing">Grabbing</h3>
     <p>Use grab mode to select and edit multiple cells.</p>
     <img src="./images/10-grabbing.png">
-    <div class="controls">
-      <div>
-        <pre>[g]</pre>
-        <pre>toggle (g)rab mode</pre>
-      </div>
-      <div>
-        <pre>[g] + [right]</pre>
-        <pre>select a whole musical event</pre>
-      </div>
-      <div>
-        <pre>[e]</pre>
-        <pre>(e)rase grabbed cells</pre>
-      </div>
-      <div>
-        <pre>[c]</pre>
-        <pre>(c)opy grabbed cells</pre>
-      </div>
-      <div>
-        <pre>[x]</pre>
-        <pre>cut grabbed cells</pre>
-      </div>
-      <div>
-        <pre>[v]</pre>
-        <pre>(p)aste copied cells</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>toggle (g)rab mode</div><code>[g]</code></li>
+      <li><div>select a whole musical event</div><code>[g] + [right]</code></li>
+      <li><div>(e)rase grabbed cells</div><code>[e]</code></li>
+      <li><div>(c)opy grabbed cells</div><code>[c]</code></li>
+      <li><div>cut grabbed cells</div><code>[x]</code></li>
+      <li><div>(p)aste copied cells</div><code>[v]</code></li>
+      <li><div>merge copied cells</div><code>[b]</code></li>
+    </ul>
     <p>While in grab mode, all of the <a href="#navigating">navigating</a> and <a href="#editing">editing</a> commands work as normal.</p>
     <p>To edit a whole column, enter grab mode on the first cell. Then, press <code>[a]</code> and <code>[down]</code> to jump to the end of the column. Try using <code>[f] + [arrows]</code> to increase and decrease values across the whole column.</p>
     <p>To copy a whole pattern, press <code>[g] + [right]</code> to select a whole event. Then, press <code>[a] + [down]</code> to jump to the end of the pattern. Use <code>[c]</code> or <code>[x]</code> to copy or cut the pattern.</p>
     <h3>Interpolation</h3>
     <p>The interpolation command creates a linear ramp between the values at each end of a grabbed region.</p>
     <img src="./images/11-interpolation.png">
-    <div class="controls">
-      <div>
-        <pre>[i]</pre>
-        <pre>interpolate between two values</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>interpolate between two values</div><code>[i]</code></li>
+    </ul>
     <p>It can be used in any column, but the most common use case is creating gain ramps in the pattern editor.</p>
     <p>To create a delay effect, enter multiple events into a pattern. In the gain column of the final event, enter a zero. Enter grab mode and select all cells in the gain column from the first to the last event before pressing <code>[i]</code>. The values between the first and the last cells are auto-filled with decreasing values, creating a delay-like effect.</p>
     <h2 id="other-functions">8. Other functions</h2>
     <img src="./images/12-track-menu.png">
     <p>Use the following command to access the track menu:</p>
-    <div class="controls">
-      <div>
-        <pre>[esc]</pre>
-        <pre>toggle track menu</pre>
-      </div>
-    </div>
+    <ul class="controls">
+      <li><div>toggle track menu</div><code>[esc]</code></li>
+    </ul>
     <h3>Save</h3>
     <p>Tracks are saved in browser storage, and are accessed from the <code>users</code> page of the track select window.</p>
     <p>If you save a demo track, it will be copied to the <code>users</code> page of the track select window.</p>
